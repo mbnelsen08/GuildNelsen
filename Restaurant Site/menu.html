@@ -24,13 +24,23 @@
 			font-family: 'Merriweather', serif;
 			background-color: #d9d9d9;
 		}
+		h2 {
+			width: 20%;
+			text-align: center;
+			margin: auto;
+		}
 		table, th, td {
 			border: 1px solid black;
 			border-collapse: collapse;
 			padding: 5px;
 		}
-		table {
-
+		.foodTable {
+			width: 70%;
+			margin: auto;
+		}
+		#beverageTable {
+			width: 50%;
+			margin: auto;
 		}
 		th {
 			font-size: 1.1em;
@@ -77,7 +87,7 @@
 	</nav>
 	<h2>Menu</h2>
 	<div class="table-responsive">
-	<table>
+	<table class="foodTable">
 		<thead>
 		<tr>
 			<th>Burger and Fries</th>
@@ -109,7 +119,7 @@
 	</table></br>
 	</div>
 	<div class="table-responsive">
-	<table>
+	<table class="foodTable">
 		<thead>
 		<tr>
 			<th>Tenderloin Sandwich and Chips</th>
@@ -144,7 +154,7 @@
 	</table></br>
 	</div>
 	<div class="table-responsive">
-	<table>
+	<table id="beverageTable">
 		<thead>
 		<tr>
 			<th colspan="2">Beverages</th>

@@ -23,6 +23,10 @@ nav a {
   float:left;
 }
 
+nav a:visited {
+  color: grey;
+}
+
 .clear-float {
   clear:both;
 }
